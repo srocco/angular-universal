@@ -13,7 +13,7 @@ import { AboutMeComponent } from './about-me/about-me.component';
     AboutMeComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule
   ],
   providers: [],
